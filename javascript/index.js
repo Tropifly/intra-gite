@@ -31,6 +31,6 @@ valider.addEventListener("click", function (event) {
             document.getElementById("mdp").classList.remove("novalid");
         }, 500);
     } else {
-        document.location.href = "menu.html";
+        document.location.href = "../pages/menu.html";
     }
 });

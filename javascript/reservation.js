@@ -136,12 +136,12 @@ bouton.addEventListener("click", function() {
 // bouton retour
 let retour = document.getElementById("retour");
 retour.addEventListener("click", function() {
-    document.location.href="menu.html";
+    document.location.href="../pages/menu.html";
 });
 
 // bouton de déconnexion
 let deconnection = document.getElementById("deconnection");
 deconnection.addEventListener("click", function() {
-    document.location.href="index.html";
+    document.location.href="../index.html";
 });
 
