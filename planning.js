@@ -1,15 +1,3 @@
-let test = document.getElementById("test");
-let test2 = document.getElementById("test2");
-
-console.log(localStorage.getItem("test"));
-test2.innerHTML = localStorage.getItem("test");
-
-test.addEventListener("input", function(event) {
-    let test3 = event.target.value
-    console.log(test3);
-    localStorage.setItem("test", test3);
-});
-
 
 function testDates() {
 
@@ -20,6 +8,12 @@ var variable2 = document.getElementById("td2");
 variable2.style.backgroundColor = "silver";
 
 var variable3 = document.getElementById("td3");
+
+if (localStorage.getItem("couleur") === null) {
+    variable3.style.backgroundColor = "white";
+};
+
+console.log(localStorage.getItem("couleur"));
 
 if (localStorage.getItem("couleur") === "'white'") {
     variable3.style.backgroundColor = "white";
