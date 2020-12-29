@@ -139,9 +139,3 @@ retour.addEventListener("click", function() {
     document.location.href="../pages/menu.html";
 });
 
-// bouton de déconnexion
-let deconnection = document.getElementById("deconnection");
-deconnection.addEventListener("click", function() {
-    document.location.href="../index.html";
-});
-

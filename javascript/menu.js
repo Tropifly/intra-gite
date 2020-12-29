@@ -10,5 +10,5 @@ calendrier.addEventListener("click", function() {
 
 let retour = document.getElementById("retour");
 retour.addEventListener("click", function() {
-    document.location.href="../pages/index.html";
+    document.location.href="../index.html";
 });

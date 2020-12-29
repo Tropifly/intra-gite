@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    background: linear-gradient(-45deg, rgb(214, 118, 7),rgb(194, 134, 65));
+    background: linear-gradient(-45deg, red, rgb(224, 75, 75));
     border-radius: 50px;
     border: 1px solid white;
     color: white;

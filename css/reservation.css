@@ -131,35 +131,6 @@ h1, h2, h3, h4, h5, h6, p
     margin: 10px 0px;
 }
 
-#deconnection
-{
-    width: 80%;
-    height: 35px;
-    outline: none;
-    border-radius: 100px;
-    border: none;
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    background: linear-gradient(-45deg, red, rgb(224, 75, 75));
-    border-radius: 50px;
-    border: 1px solid white;
-    color: white;
-    font-weight: normal;
-    font-size: 1.2em;
-    margin: 10px 0px;
-}
-
-
-
-#deconnection:hover
-{
-    cursor: pointer;
-}
-
 #download:hover
 {
     cursor: pointer;

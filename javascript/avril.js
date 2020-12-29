@@ -977,5 +977,5 @@ variable35.style.backgroundColor = "silver";
 // bouton retour
 let retour = document.getElementById("retour");
 retour.addEventListener("click", function() {
-    document.location.href="../pages/menu.html";
+    document.location.href="../../pages/menu.html";
 });

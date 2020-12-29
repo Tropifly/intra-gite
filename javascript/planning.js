@@ -1,3 +1,4 @@
+
 // couleur grise
 var variable1 = document.getElementById("td1");
 variable1.style.backgroundColor = "silver";
