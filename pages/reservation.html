@@ -11,7 +11,16 @@
 </head>
 
 <body>
+    <header>
+        <h2>Feuille de réservation</h2>
+        <button id="apercu">Aperçu</button>
+        <button id="download">Telecharger</button>
+        <button id="retour">Retour</button>
+    </header>
+
+    <main>
     <div class="boite">
+        <div id="boite2">
         <label for="nom" class="flabel">Nom</label>
         <input type="text" name="nom" id="nom" placeholder="Duchamps">
         <br>
@@ -64,14 +73,12 @@
         <textarea name="commentaire" id="commentaire" cols="30" rows="5" maxlength="57"></textarea>
 
         <div class="button">
-            <button id="apercu">Aperçu</button>
-            <button id="download">Telecharger</button>
-            <button id="retour">Retour</button>
+            
         </div>
 
 
 
-
+</div>
     </div>
     <div id="content">
 
@@ -106,6 +113,7 @@
             <p>Commentaire :</p> <br>
             <p id="comresult"></p>
     </div>
+    </main>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.2.0/jspdf.umd.min.js"></script>
     <script defer src="../javascript/reservation.js"></script>
 </body>
