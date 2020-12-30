@@ -120,8 +120,8 @@ caption
 
 td /* Toutes les cellules des tableaux... */
 {
-    border: 1px solid black; /* auront une bordure de 1px */
-    width: 150px;
+    border: 2px solid gray;
+    width: 120px;
     height: 120px;
     text-align: center;
     font-size: 2em;
@@ -140,6 +140,11 @@ a
 
 .text1
 {
+    margin-right: 150px;
+}
+
+.text1
+{
     color: white;
     font-size: 2.5em;
 }
@@ -151,6 +156,7 @@ a
     padding: 10px 10px;
     text-align: center;
     margin: 10px 0px;
+    border-radius: 20px;
 }
 
 .vert
@@ -160,6 +166,7 @@ a
     padding: 10px 10px;
     text-align: center;
     margin: 10px 0px;
+    border-radius: 20px;
 }
 
 .rouge
@@ -169,5 +176,6 @@ a
     padding: 10px 10px;
     text-align: center;
     margin: 10px 0px;
+    border-radius: 20px;
 }
 
