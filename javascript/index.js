@@ -34,3 +34,10 @@ valider.addEventListener("click", function (event) {
         document.location.href = "pages/menu.html";
     }
 });
+
+
+
+
+
+
+
