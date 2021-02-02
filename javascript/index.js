@@ -1,5 +1,5 @@
-const identifiantAdmin = "saintMaxGite";
-const mdpAdmin = "gite2020";
+const identifiantAdmin = "1";
+const mdpAdmin = "1";
 
 const valider = document.getElementById("valider");
 
@@ -31,6 +31,6 @@ valider.addEventListener("click", function (event) {
             document.getElementById("mdp").classList.remove("novalid");
         }, 500);
     } else {
-        document.location.href = "../pages/menu.html";
+        document.location.href = "pages/menu.html";
     }
 });
